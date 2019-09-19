@@ -1,0 +1,7 @@
+package ua.khpi.oop.gorianskiy02;
+
+public class Lab2 {
+	public static void main(String [] ards) {
+		System.out.print("HUI\n");
+	}
+}
