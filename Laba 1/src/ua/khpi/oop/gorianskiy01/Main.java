@@ -3,15 +3,6 @@ import java.lang.String;
 import java.math.BigInteger;
 
 public class Main {
-//	public static void function(int checkedNumber) {
-//	    BigInteger val = new BigInteger(String.valueOf(checkedNumber));
-//	    val = val.abs();
-//	    int count = val.bitCount();
-//	    String binaryString = val.toString(2);
-//
-//	    System.out.println("count = " + count);
-//	    System.out.println("bin = " + binaryString);
-//	}
 	public static void func2(long number1) {
 		String convert = Integer.toBinaryString( (int) number1);
         System.out.println(convert);

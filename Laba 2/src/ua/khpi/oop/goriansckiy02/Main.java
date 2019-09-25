@@ -3,10 +3,15 @@ package ua.khpi.oop.goriansckiy02;
 import java.util.Random;
 
 public class Main {
+	
+public static void func(boolean x){
+	if (x) {
+        System.out.println("число составное ");
+    } else {
+        System.out.println("число  простое ");
+    }
+	}
 	public static void main(String []args) {
-//		int x=4;
-//		int res = 4%10+1;
-//		System.out.println(res);
 		
 			Random rand=new Random();
 			int n = rand.nextInt(100);	
@@ -19,10 +24,6 @@ public class Main {
 	                break;
 	            }
 	        }
-	        if (isComposite) {
-	            System.out.println("число составное ");
-	        } else {
-	            System.out.println("число  простое ");
-	        }
+	        func(isComposite);
 	}
 }

@@ -1,9 +1,0 @@
-package ua.khpi.oop.goriansckiy02;
-
-public class Main {
-	public static void main(String []args) {
-		int x=4;
-		int res = 4%10+1;
-		System.out.println(res);
-	}
-}
